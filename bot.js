@@ -1,8 +1,8 @@
 const fs = require("fs");
 const path = require("path");
 const events = require("./events");
-const princerudh = require("./princerudh");
-const rudhra = require('./rudhra');
+const badboy = require("./badboy");
+const data = require('./data');
 const { FakeDB, takeMessage } = require("./plugins/sql/fake");
 const chalk = require('chalk');
 const config = require('./config');
